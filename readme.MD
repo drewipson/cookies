@@ -10,3 +10,4 @@ You can clone this repo and run this command in your `zshell` or manually add th
 2. Run the setup.sh script with `./setup.sh`
 3. Reference your `.zshrc` with `source ~/.zshrc`
 4. Test it out by running `cookie`.
+5. Add your own cookie by running `add_cookie`
