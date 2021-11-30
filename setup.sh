@@ -10,6 +10,7 @@ cookie() {
     file=$(/bin/ls -A ~/.cookie_jar/ | sort -R | tail -1)
     cat ~/.cookie_jar/$file
 }' >> ~/.zshrc
+
 echo '
 add_cookie(){
     echo "Add a cookie!"
@@ -26,8 +27,3 @@ source ~/.zshrc
 
 # run cookie function
 cookie
-
-
-
-
-
